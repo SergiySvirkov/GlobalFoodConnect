@@ -1,0 +1,28 @@
+{
+  "name": "globalfoodconnect",
+  "version": "1.0.0",
+  "description": "Revolutionary platform for global cross-border food delivery using smart kitchen technologies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/app.js", // Adjust this based on your backend file structure
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["smart kitchen", "food delivery", "blockchain", "3D printing", "drone delivery"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/globalfoodconnect.git"
+  },
+  "dependencies": {
+    // Add your backend dependencies here
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    // Add your frontend dependencies here
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+    // Add other dependencies as needed
+  }
+}
+

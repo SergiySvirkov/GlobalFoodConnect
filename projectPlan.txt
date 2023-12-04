@@ -1,0 +1,82 @@
+globalfoodconnect/
+|-- frontend/
+|   |-- public/
+|   |   |-- index.html
+|   |-- src/
+|   |   |-- components/
+|   |   |   |-- Auth/
+|   |   |   |   |-- Login.js
+|   |   |   |   |-- Register.js
+|   |   |   |-- Restaurant/
+|   |   |   |   |-- RestaurantList.js
+|   |   |   |   |-- Menu.js
+|   |   |   |   |-- DishCard.js
+|   |   |   |-- Order/
+|   |   |   |   |-- OrderForm.js
+|   |   |   |   |-- OrderSummary.js
+|   |   |   |-- User/
+|   |   |   |   |-- UserProfile.js
+|   |   |-- services/
+|   |   |   |-- api.js
+|   |   |   |-- auth.js
+|   |   |   |-- order.js
+|   |   |   |-- restaurant.js
+|   |   |-- App.js
+|   |   |-- index.js
+|   |   |-- styles.css
+|-- backend/
+|   |-- controllers/
+|   |   |-- AuthController.js
+|   |   |-- RestaurantController.js
+|   |   |-- OrderController.js
+|   |   |-- UserController.js
+|   |-- models/
+|   |   |-- User.js
+|   |   |-- Restaurant.js
+|   |   |-- Order.js
+|   |   |-- Menu.js
+|   |-- routes/
+|   |   |-- authRoutes.js
+|   |   |-- restaurantRoutes.js
+|   |   |-- orderRoutes.js
+|   |   |-- userRoutes.js
+|   |-- config/
+|   |   |-- database.js
+|   |   |-- express.js
+|   |-- app.js
+|-- blockchain/
+|   |-- smart-contracts/
+|   |   |-- FoodDeliveryContract.sol
+|   |   |-- UserFeedbackContract.sol
+|   |-- interactions/
+|   |   |-- BlockchainService.js
+|   |-- config/
+|   |   |-- web3.js
+|-- 3dprinting/
+|   |-- models/
+|   |   |-- FoodPrinterModel.obj
+|   |   |-- FoodPrintingService.js
+|-- drones/
+|   |-- simulations/
+|   |   |-- DroneSimulation.js
+|   |   |-- DroneDeliveryService.js
+|-- public/
+|   |-- images/
+|   |   |-- restaurant1.jpg
+|   |   |-- restaurant2.jpg
+|   |   |-- dish1.jpg
+|   |   |-- dish2.jpg
+|-- .gitignore
+|-- package.json
+|-- README.md
+
+Please note:
+
+    The frontend directory contains the React.js application, with components for different sections like authentication, restaurant listings, ordering, and user profiles.
+    The backend directory includes the Node.js (or Django) server with controllers for different entities (user, restaurant, order), models for data representation, and routes for handling API endpoints.
+    The blockchain directory contains smart contracts for blockchain interactions and a service for handling blockchain transactions.
+    The 3dprinting directory includes a simulated 3D food printing model and a service for handling 3D printing interactions.
+    The drones directory has simulations for drone delivery and a service for managing drone deliveries.
+    The public directory holds static assets such as images.
+    The root directory contains configuration files, a .gitignore file, and the main package.json file.
+
